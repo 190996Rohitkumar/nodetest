@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>NodeTest:Chat</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+     </head>
+    <body>
+        <h1><center>NodeTest:Chat using Socket.IO </center></h1>
+        <div >
+            
+        </div>
+        <script  type="text/javascript" src="socket.io.js"></script>
+        <script>
+        var socket=io();   
+        socket.on('showstatus',function(){
+            alert('connected to chat room');
+        });
+        
+        </script>
+    </body>
+    
+</html>
